@@ -1,0 +1,76 @@
+.wrapper {
+	display: flex;
+	height: 150px;
+	background-color: aquamarine;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	/* align-items: baseline; */
+	/* align-items: stretch; */
+	/* align-items: flex-end; */
+	/* align-items: center; */
+	/* align-items: flex-start; */
+	/* justify-content: space-around; */
+	/* justify-content: space-between; */
+	/* justify-content: flex-end; */
+	/* justify-content: flex-start; */
+	/* flex-direction: column; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column-reverse; */
+}
+.red {
+	background-color: red;
+	height: 30px;
+	/* align-self: flex-start; */
+	align-self: flex-end;
+	/* align-self: center; */
+	/* align-self: stretch; */
+}
+.green {
+	background-color: green;
+	height: 40px;
+	min-width: 50px;
+	width: 30%;
+}
+
+.blue {
+	background-color: blue;
+	height: 70px;
+}
+
+.yellow {
+	background-color: yellow;
+	height: 50%;
+	min-height: 100px;
+}
+
+.purple {
+	background-color: purple;
+	height: 80px;
+}
+
+/* .w-100 {
+	width: 100%;
+} */
+
+/* .wrapper > div {
+	width: 100px;
+}
+
+.blue,
+.yellow {
+	color: azure;
+}
+
+#p1 + #p2 {
+	color: blueviolet;
+}
+.green + .red {
+	color: blueviolet;
+}
+
+.green p {
+	font-size: 30px;
+}
+.wrapper > .green p {
+	font-size: 10px;
+} */
