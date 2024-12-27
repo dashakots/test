@@ -1,0 +1,64 @@
+#element::after {
+	content: ".применил псевдоэлемент after";
+	color: green;
+}
+
+#element::before {
+	content: ".применил псевдоэлемент before";
+	color: red;
+}
+
+.links:link {
+	color: green;
+}
+.links:visited {
+	color: orange;
+}
+.links:active {
+	color: red;
+}
+
+.hover-div:hover {
+	background-color: yellow;
+}
+
+.hover-div > span:hover {
+	background-color: blue;
+	color: aqua;
+	cursor: crosshair;
+}
+
+.empty:empty {
+	height: 20px;
+	background-color: lightgreen;
+}
+
+.child:first-child {
+	background-color: chocolate;
+}
+.child:last-child {
+	background-color: bisque;
+}
+
+.child:nth-child(even) {
+	color: blueviolet;
+}
+.child:nth-child(odd) {
+	color: yellow;
+}
+
+.child:nth-child(3n + 2) {
+	background-color: darkorange;
+}
+
+@media screen and (max-width: 768px) {
+	a {
+		display: none;
+	}
+	.media {
+		width: 50%;
+		background-color: red;
+		color: blue;
+		font-size: 32px;
+	}
+}
