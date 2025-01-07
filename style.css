@@ -1,0 +1,133 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 20px;
+	max-width: 1100px;
+	flex-wrap: nowrap;
+}
+
+.container {
+	background: #1c4094;
+	padding: 20px 0;
+	
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav-name{
+	color: white;
+}
+
+input {
+	background-color: #0c2257;
+	border-radius: 15%;
+}
+.img {
+	width: 20px;
+	height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content-left {
+	width: 15%;
+	
+}
+
+.link-left {
+	padding-top: 15px;
+}
+.menu{
+	border: 3px solid blue;
+	padding-bottom: 15px;
+}
+.img-left {
+	padding-top: 15px;
+	width: 150px;
+	height: 100px;
+}
+.avatar {
+	border: 3px solid red;
+}
+.content-center {
+	margin-left: 10px;
+
+	width: 30%;
+}
+
+p {
+	list-style-type: none;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.p1 {
+	padding-top: 30px;
+}
+
+.photo-img {
+	height: 280px;
+	width: 320px;
+	padding-bottom: 15px;
+}
+
+.avatar-btn {
+	
+    background-color: lightblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+	width: 325px;
+	height: 40px;
+}
+.img-friends {
+	height: 40px;
+	width: 50px;
+}
+
+.friends {
+	margin-top: 10px;
+	padding: 10px 10px;
+	border: 3px solid blueviolet;
+}
+.friends-text {
+	padding-bottom: 10px;
+}
+.friends-photo {
+	width: 70px;
+	height: 70px;
+}
+
+.content-right {
+	margin-left: 10px;
+	width: 53%;	
+}
+
+.indent {
+	margin: 15px 0px;
+}
+.about {
+	border: 3px solid green;
+}
+.photos {
+	height: 100px;
+	width: 120px;
+}
+.myPhoto {
+	border: 3px solid brown;
+	margin-top: 10px;
+	padding: 10px 10px;
+}
