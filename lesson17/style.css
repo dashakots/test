@@ -1,0 +1,21 @@
+/* .p-style {
+	background-color: coral;
+	color: darkgreen !important;
+	font-size: smaller !important;
+} */
+
+.items {
+	display: flex;
+	flex-wrap: nowrap;
+	gap: 5px;
+}
+.item {
+	border: 1px solid black;
+	width: 250px;
+	height: 400px;
+}
+
+.img {
+	width: 150px;
+	height: 150px;
+}
