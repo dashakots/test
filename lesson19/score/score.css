@@ -1,0 +1,28 @@
+h2 {
+	font-family: "Courier New", Courier, monospace;
+	color: blue;
+}
+table {
+	border: 2px solid black;
+	margin-bottom: 20px;
+	width: 370px;
+}
+
+th,
+td {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	background-color: lightcyan;
+}
+
+button {
+	background-color: #1e213d;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+button:hover {
+	background-color: rgb(134, 233, 134);
+	color: black;
+}

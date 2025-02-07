@@ -1,0 +1,30 @@
+#error {
+	color: red;
+	display: none;
+}
+h4 {
+	font-size: 24px;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+button {
+	background-color: blue;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	border-radius: 10px;
+}
+
+#number {
+	width: 200px;
+	height: 25px;
+	border-radius: 10px;
+}
+
+button:hover {
+	background-color: white;
+	color: darkblue;
+}
